@@ -22,5 +22,15 @@
 
         MsgBox("Resultado: " + result.ToString)
     End Sub
+	
+	Private Sub btn3_Click(sender As Object, e As EventArgs) Handles btn3.Click
+        x = txtX.Text
+        y = txtY.Text
+        z = txtZ.Text
+
+        result = Math.Sqrt(x * y) + z
+
+        MsgBox("Resultado: " + result.ToString)
+    End Sub
 
 End Class
