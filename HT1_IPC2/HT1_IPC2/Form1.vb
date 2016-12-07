@@ -30,7 +30,7 @@
 
         result = Math.Sqrt(x * y) + z
 
-        MsgBox("Resultado: " + result.ToString)
+        MsgBox("Resultado: " + result.ToString + "_201503840")
     End Sub
 	
 	Private Sub btn4_Click(sender As Object, e As EventArgs) Handles btn4.Click
