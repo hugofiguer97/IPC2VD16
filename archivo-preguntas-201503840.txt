@@ -1,0 +1,8 @@
+﻿¿Qué entiende cómo "Commit"?
+Un commit se puede interpretar como un cambio realizado dentro del sistema que se está desarrollando, pero estos cambios no necesariamente tienen que ser definitivos.
+
+¿Qué entiende cómo "Merge"?
+El merge se puede tomar como la unión de todos los commits realizados por todo el personal de desarrolladores para obtener todas las divisiones del trabajo como uno solo.
+
+¿Cuál es la diferencia entre "Pull" y "Push"?
+El pull se utiliza para descargar los archivos modificados de los demás desarrolladores, y push es para subir mis propios archivos modificados.
