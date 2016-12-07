@@ -32,5 +32,15 @@
 
         MsgBox("Resultado: " + result.ToString)
     End Sub
+	
+	Private Sub btn4_Click(sender As Object, e As EventArgs) Handles btn4.Click
+        x = txtX.Text
+        y = txtY.Text
+        z = txtZ.Text
+
+        result = Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2) + Math.Pow(z, 2))
+
+        MsgBox("Resultado: " + result.ToString)
+    End Sub
 
 End Class
